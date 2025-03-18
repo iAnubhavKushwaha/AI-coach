@@ -35,7 +35,7 @@ const Header = async() => {
           />
         </Link>
 
-        <div className="flex items-center space-x-2 md: space-x-4">
+        <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
             <Link href={"/dashboard"}>
               <Button variant="outline">
